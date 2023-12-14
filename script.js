@@ -1,5 +1,5 @@
 $(window).on("scroll", function () {
-    if ($(window).scrollTop() > 100) {
+    if ($(window).scrollTop() > 0) {
         $(".navbar").addClass("active");
     }
     else {
